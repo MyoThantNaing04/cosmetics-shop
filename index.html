@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jerry Online Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+     <!-- navigation bar -->
+     <nav class="navbar navbar-expand-lg bg-traparent shadow-sm sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-5"  href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2 fw-normal fs-5">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item mx-2 fw-normal fs-5">
+                <a class="nav-link " aria-current="page"  href="category.html">Category</a>
+              </li>
+              <li class="nav-item mx-2 mx-2 fw-normal fs-5 ">
+                <a class="nav-link " aria-current="page"  href="product.html">Product</a>
+              </li>
+              <li class="nav-item mx-2 fw-normal fs-5">
+                <a class="nav-link" aria-current="page"  href="contact.html">Contact</a>
+              </li>
+              
+            </ul>
+            <div class="d-none d-lg-block mx-3">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 text-muted search" type="search" placeholder="Search Product..." aria-label="Search">
+                    <button class="btn btn-outline-primary search-btn" type="submit">Search</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+     <!-- navigation bar -->
+     <!-- mobile view Search bar -->
+     <div class="container-fluid product-search d-lg-none d-sm-block">
+      <form class="d-flex w-60 mx-auto p-3" role="search">
+        <input class="form-control me-2 text-muted search-mobile" type="search" placeholder="Search Product..." aria-label="Search">
+        <button class="btn btn-outline-primary search-btn" type="submit">Search</button>
+      </form>
+     </div>
+     <!-- mobile view Search bar -->
+
+     <!-- promotion -->
+     <div class="container p-3">
+      <br><br><br>
+      <h2 class="text-center">Our Promotion</h2>
+      <br>
+      <div class="row">
+        <div class="col-md-8 mx-auto p-3">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active card p-2 rounded-3" data-bs-interval="5000">
+                <img src="images/promo1.png" class="d-block w-100 rounded-3" alt="...">
+                <div class="carousel-caption">
+                  <a href="order.html" class="btn btn-outline-primary btn-oreder w-40 text-decoration-none">Order Now</a>
+                </div>
+              </div>
+              <div class="carousel-item card p-2 rounded-3" data-bs-interval="2000">
+                <img src="images/promo2.png" class="d-block w-100 rounded-3" alt="...">
+                <div class="carousel-caption">
+                  <a href="order.html" class="btn btn-outline-primary btn-oreder w-40 text-decoration-none">Order Now</a>
+                </div>
+              </div>
+              <div class="carousel-item card p-2 rounded-3">
+                <img src="images/promo3.png" class="d-block w-100 rounded-3" alt="...">
+                <div class="carousel-caption">
+                  <a href="order.html" class="btn btn-outline-primary btn-oreder w-40 text-decoration-none">Order Now</a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+     </div>
+     <!-- promotion -->
+
+     <!-- Category -->
+     <div class="container p-3 text-center">
+      <br><br><br>
+      <h2>Explore Product</h2>
+      <br><br>
+      <div class="row">
+        <div class="col-md-4 p-2">
+          <a href="Category-product.html" class="text-decoration-none">
+            <div class="pb-3 border-0 rounded-4 bg-body shadow p-3">
+              <img src="images/lipstick.svg" class="rounded-3 w-100" alt="lipstick">
+              <div class="card-body py-3">
+                <h5 class="card-title text-dark">
+                  Lipstick
+                </h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 p-2">
+          <a href="Category-product.html" class="text-decoration-none">
+            <div class="pb-3 border-0 rounded-4 bg-body shadow p-3">
+              <img src="images/shamboo.svg" class="rounded-3 w-100" alt="lipstick">
+              <div class="card-body py-3">
+                <h5 class="card-title text-dark">
+                 Shamboo
+                </h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 p-2">
+          <a href="Category-product.html" class="text-decoration-none">
+            <div class="pb-3 border-0 rounded-4 bg-body shadow p-3">
+              <img src="images/facewash.svg" class="rounded-3 w-100" alt="lipstick">
+              <div class="card-body py-3">
+                <h5 class="card-title text-dark">
+                  facewash
+                </h5>
+              </div>
+            </div>
+          </a>
+        </div>
+     </div>
+     </div>
+     <!-- Category -->
+     <!-- Top Product -->
+    <div class="container p-3 text-center">
+      <br><br><br>
+      <h2>Top Products</h2>
+      <br><br>
+      <div class="row">
+        <div class="col-md-6 p-2">
+          <div class="p-2 border-0 rounded-4 bg-body shadow w-100">
+            <div class="d-flex">
+              <img src="images/shamboo.svg" class="rounded-4 mt-3" width="20%" height="50% ">
+              <div class="p-3">
+                <h4>Shamboo</h4>
+                <p>$2.3</p>
+                <p class="text-muted">
+                  Some product description
+                </p>
+                <a href="order.html" class="btn btn-outline-primary btn-oreder w-40 text-decoration-none">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-2">
+          <div class="p-2 border-0 rounded-4 bg-body shadow w-100">
+            <div class="d-flex">
+              <img src="images/lipstick.svg" class="rounded-4 mt-3" width="20%" height="50% ">
+              <div class="p-3">
+                <h4>Shamboo</h4>
+                <p>$2.3</p>
+                <p class="text-muted">
+                  Some product description
+                </p>
+                <a href="order.html" class="btn btn-outline-primary btn-oreder w-40 text-decoration-none">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+  </div>
+   <!-- Top Product -->
+   <!-- footer -->
+   <br><br><br><br><br>
+   <div class="container-fluid d-flex justify-content-around  flex-wrap text-center p-3  footer mt-5 ">
+     <div class="location position-relative"><a href="" class="text-white text-decoration-none"><img width="25" height="25"src="https://img.icons8.com/ios-filled/50/FFFFFF/marker.png" alt="marker"/><span class="position-absolute fs-4" style="top: -2px;">Location</span></a></div>
+     <div style="margin-left: 130px;">
+      <a href=""  class="mx-2"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/50/FFFFFF/facebook-new.png" alt="facebook-new"/></a>
+      <a href=""  class="mx-2"><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/viber--v1.png" alt="viber--v1"/></a>
+      <a href=""  class="mx-2"><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/telegram.png" alt="telegram"/></a>
+     </div>
+     <div><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/apple-phone.png" alt="apple-phone"/>&nbsp;&nbsp;09 xxx xxx xxx , 09 xxx xxx xxx </div>
+   </div>
+   <!-- footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

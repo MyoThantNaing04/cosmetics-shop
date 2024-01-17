@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jerry Online Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+     <!-- navigation bar -->
+     <nav class="navbar navbar-expand-lg bg-traparent shadow-sm sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-5"  href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2 fw-normal fs-5">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item mx-2 fw-normal fs-5">
+                <a class="nav-link " aria-current="page"  href="category.html">Category</a>
+              </li>
+              <li class="nav-item mx-2 mx-2 fw-normal fs-5 ">
+                <a class="nav-link " aria-current="page"  href="product.html">Product</a>
+              </li>
+              <li class="nav-item mx-2 fw-normal fs-5">
+                <a class="nav-link" aria-current="page"  href="contact.html">Contact</a>
+              </li>
+              
+            </ul>
+            <div class="d-none d-lg-block mx-3">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 text-muted search" type="search" placeholder="Search Product..." aria-label="Search">
+                    <button class="btn btn-outline-primary search-btn" type="submit">Search</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+     <!-- navigation bar -->
+     <div class="container-fluid product-search d-lg-none d-sm-block">
+        <h2 class="text-white text-center p-3">Contact Us</h2>
+     </div>
+
+     <!-- Contact -->
+     <div class="container p-3">
+        <br><br><br>
+        <div class="row">
+            <div class="col-md-6 p-3">
+                <div class="rounded-3 p-3 shadow">
+                    <form class="row g-3">
+                        <div class="col-md-12">
+                            <label for="inputName" class="form-label">Name</label> 
+                            <input type="text" class="form-control" id="inputName" placeholder="Name">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="inputName" class="form-label">Email</label> 
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="textarea" class="form-label">Your Message</label> 
+                            <textarea class="form-control mt-3" placeholder="Leave your message here" id="textarea" style="height: 150px;"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-outline-primary search-btn mt-3" type="submit">Send Mail</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 p-3">
+                <div class="card rounded-3 shadow">
+                    <iframe class="p-1 rounded-3 w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.9789659455346!2d95.85921739999999!3d20.9131659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c97c8900585611%3A0x76e1c106b1d6f358!2sTechnological%20University%20Meiktila!5e0!3m2!1sen!2smm!4v1705334777749!5m2!1sen!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- Contact -->
+     <!-- footer -->
+   <br><br><br><br><br>
+   <div class="container-fluid d-flex justify-content-around  flex-wrap text-center p-3 footer mt-5 ">
+     <div class="location position-relative"><a href="" class="text-white text-decoration-none"><img width="25" height="25"src="https://img.icons8.com/ios-filled/50/FFFFFF/marker.png" alt="marker"/><span class="position-absolute fs-4" style="top: -2px;">Location</span></a></div>
+     <div style="margin-left: 130px;">
+      <a href=""  class="mx-2"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/50/FFFFFF/facebook-new.png" alt="facebook-new"/></a>
+      <a href=""  class="mx-2"><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/viber--v1.png" alt="viber--v1"/></a>
+      <a href=""  class="mx-2"><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/telegram.png" alt="telegram"/></a>
+     </div>
+     <div><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/apple-phone.png" alt="apple-phone"/>&nbsp;&nbsp;09 xxx xxx xxx , 09 xxx xxx xxx </div>
+   </div>
+   <!-- footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
